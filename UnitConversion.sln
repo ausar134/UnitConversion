@@ -16,9 +16,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D18F5C42-931
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{88EA6E37-DE62-4419-9445-AAF426496764}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitConversion", "..\..\..\..\..\..\..\Users\akritikos\source\repos\ausar134\UnitConversion\src\UnitConversion\UnitConversion.csproj", "{38744097-6954-4825-BCC1-1ED88270DD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitConversionTests", "tests\UnitConversionTests\UnitConversionTests.csproj", "{F17A92FB-F901-45BB-A5BA-691E5BB2AE3E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38744097-6954-4825-BCC1-1ED88270DD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38744097-6954-4825-BCC1-1ED88270DD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38744097-6954-4825-BCC1-1ED88270DD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38744097-6954-4825-BCC1-1ED88270DD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17A92FB-F901-45BB-A5BA-691E5BB2AE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17A92FB-F901-45BB-A5BA-691E5BB2AE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17A92FB-F901-45BB-A5BA-691E5BB2AE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17A92FB-F901-45BB-A5BA-691E5BB2AE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38744097-6954-4825-BCC1-1ED88270DD71} = {D18F5C42-9317-4556-B8C2-70F2B92EDB43}
+		{F17A92FB-F901-45BB-A5BA-691E5BB2AE3E} = {88EA6E37-DE62-4419-9445-AAF426496764}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3672F26-0AF8-45B5-9A44-93046CDAD69E}
