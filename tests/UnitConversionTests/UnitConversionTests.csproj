@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\..\..\Users\akritikos\source\repos\ausar134\UnitConversion\src\UnitConversion\UnitConversion.csproj" />
+    <ProjectReference Include="..\..\src\UnitConversion\UnitConversion.csproj" />
   </ItemGroup>
 
 </Project>
